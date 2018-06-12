@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7067ea2-9938-4ab1-9f09-23e3f9b8538a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/froms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +19,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restapi/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="474">
-              <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+              <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="froms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/froms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1550">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-626">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -39,11 +92,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restapi/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+            <state relative-caret-position="424">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
@@ -52,6 +105,14 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -68,9 +129,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/restapi/urls.py" />
         <option value="$PROJECT_DIR$/post/models.py" />
         <option value="$PROJECT_DIR$/restapi/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/accounts/froms.py" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/form.html" />
+        <option value="$PROJECT_DIR$/restapi/urls.py" />
       </list>
     </option>
   </component>
@@ -106,17 +172,7 @@
             <path>
               <item name="restapi" type="b2602c69:ProjectViewProjectNode" />
               <item name="restapi" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restapi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restapi" type="462c0819:PsiDirectoryNode" />
-              <item name="comments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restapi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restapi" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restapi" type="b2602c69:ProjectViewProjectNode" />
@@ -126,13 +182,7 @@
             <path>
               <item name="restapi" type="b2602c69:ProjectViewProjectNode" />
               <item name="restapi" type="462c0819:PsiDirectoryNode" />
-              <item name="static_in_pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restapi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restapi" type="462c0819:PsiDirectoryNode" />
-              <item name="static_in_pro" type="462c0819:PsiDirectoryNode" />
-              <item name="static_root" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,6 +191,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -204,8 +255,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24238876" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24238876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -266,16 +317,6 @@
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1694246980/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -299,7 +340,54 @@
     <entry file="file://$PROJECT_DIR$/restapi/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/froms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-626">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
