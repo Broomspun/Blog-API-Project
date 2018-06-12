@@ -5,6 +5,8 @@ from rest_framework.serializers import (
 )
 
 from posts.models import Post
+from comments.models import Comment
+from comments.api.serializers import CommentSerializer
 
 
 class PostCreateSerializer(ModelSerializer):
@@ -41,10 +43,11 @@ class PostDetailSerializer(ModelSerializer):
     user = SerializerMethodField()
     image = SerializerMethodField()
     html = SerializerMethodField()
+    comments = SerializerMethodField()
 
     class Meta:
         model = Post
-        fields = ['id', 'url', 'user', 'title', 'content', 'html', 'image', 'publish']
+        fields = ['id', 'url', 'user', 'title', 'content', 'html', 'image', 'publish', 'comments']
 
     def get_html(self, obj):
         return obj.get_markdown()
@@ -59,3 +62,8 @@ class PostDetailSerializer(ModelSerializer):
             image = None
 
         return image
+
+    def get_comments(self, obj):
+        c_qs = Comment.objects.filter_by_instance(obj)
+        comments = CommentSerializer(c_qs, many=True).data
+        return comments

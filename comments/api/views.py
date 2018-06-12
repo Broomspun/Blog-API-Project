@@ -16,40 +16,14 @@ from posts.api.pagination import PostLimitOffsetPagination, PostPageNumberPagina
 
 from comments.models import Comment
 from .serializers import (
-    CommentSerializer
+    CommentSerializer,
+    CommentDetailSerializer
 )
 
 
 class CommentDetailAPIView(RetrieveAPIView):
     queryset = Comment.objects.all()
-    serializer_class = CommentSerializer
-
-
-# class PostUpdateAPIView(UpdateAPIView):
-#     queryset = Post.objects.all()
-#     serializer_class = PostCreateSerializer
-#
-#     permission_classes = [IsOwnerOrReadOnly]
-#
-#     def perform_update(self, serializer):
-#         serializer.save(user=self.request.user)
-
-
-# class PostDeleteAPIView(DestroyAPIView):
-#     queryset = Comment.objects.all()
-#     serializer_class = CommentSerializer
-
-    # lookup_field = 'slug'
-    # permission_classes = [IsOwnerOrReadOnly]
-
-#
-# class PostCreateAPIView(CreateAPIView):
-#     queryset = Post.objects.all()
-#     serializer_class = PostCreateSerializer
-#     permission_classes = [IsAuthenticated, IsAdminUser]
-#
-#     def perform_create(self, serializer):
-#         serializer.save(user=self.request.user)
+    serializer_class = CommentDetailSerializer
 
 
 class CommentListAPIView(ListAPIView):
