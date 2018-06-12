@@ -20,6 +20,9 @@ class PostUpdateAPIView(UpdateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostListSerializer
 
+    def perform_update(self, serializer):
+        serializer.save(user=self.request.user)
+
 
 class PostDeleteAPIView(DestroyAPIView):
     queryset = Post.objects.all()
@@ -29,3 +32,6 @@ class PostDeleteAPIView(DestroyAPIView):
 class PostCreateAPIView(CreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostCreateSerializer
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
