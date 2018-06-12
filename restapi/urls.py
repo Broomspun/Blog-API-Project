@@ -31,6 +31,7 @@ urlpatterns = [
     url(r'^logout/', logout_view, name='logout'),
     url(r'^', include("posts.urls", namespace="posts")),
     url(r'^posts/', include("posts.urls", namespace="posts")),
+    url(r'^api/posts/', include("posts.api.urls", namespace="posts-api")),
     # url(r'^api-auth/', include('rest_framework.urls')),
     # url(r'^comments/', include('django_comments.urls')),
 ]
