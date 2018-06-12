@@ -22,6 +22,7 @@ var/
 wheels/
 *.egg-info/
 .idea/
+.idea/*.xml
 assets/
 .installed.cfg
 *.egg
