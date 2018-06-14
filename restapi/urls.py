@@ -19,9 +19,8 @@ from django.urls import path, include
 from django.conf.urls import url
 from django.conf.urls.static import static
 
-
+from rest_framework_jwt.views import obtain_jwt_token
 from accounts.views import login_view, register_view, logout_view
-
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,13 +28,18 @@ urlpatterns = [
     url(r'^register/', register_view, name='register'),
     url(r'^login/', login_view, name='login'),
     url(r'^logout/', logout_view, name='logout'),
-    url(r'^', include("posts.urls", namespace="posts")),
-    url(r'^posts/', include("posts.urls", namespace="posts")),
     url(r'^api/posts/', include("posts.api.urls", namespace="posts-api")),
-    # url(r'^api-auth/', include('rest_framework.urls')),
+    url(r'^api/token-auth/', obtain_jwt_token),
     url(r'^api/comments/', include('comments.api.urls', namespace="comments-api")),
+    url(r'^api/users/', include("accounts.api.urls", namespace='users-api')),
+    url(r'^api-auth/', include('rest_framework.urls')),
+    url(r'^', include("posts.urls", namespace="posts")),
 ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+'''
+
+'''
